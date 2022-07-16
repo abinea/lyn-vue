@@ -1,5 +1,5 @@
 import observe from './observe.js'
-import Dep from './Dep.js'
+import Dep from './dep.js'
 
 export default function defineReactive(target, key, val) {
   const childOb = observe(val) // 深层响应式处理

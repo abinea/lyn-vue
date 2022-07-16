@@ -1,5 +1,5 @@
 import defineReactive from './defineReactive.js'
-import Dep from './Dep.js'
+import Dep from './dep.js'
 import observe from './observe.js'
 import protoArgument from './protoArgument.js'
 

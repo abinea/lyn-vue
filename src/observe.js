@@ -1,4 +1,4 @@
-import Observer from './Observer.js'
+import Observer from './observer.js'
 
 export default function observe(value) {
   if (typeof value !== 'object') return // string类型爆栈
